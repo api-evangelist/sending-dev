@@ -1,4 +1,4 @@
-# sending-dev
+# Sending
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,160 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sending-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sending.dev/
+Sending provides email, WhatsApp, and Telegram messaging via its Model Context Protocol (MCP) and a REST API. The platform enables AI agents to build and ship automations with server‑side guardrails, offering a free tier without requiring a credit card. It targets developers needing transactional email and multi‑channel communication, emphasizing privacy, compliance, and easy integration.
+
+**Areas:** Email · Messaging · API · AI Agents · Automation
+
+## Sending on APIs.io
+
+Everything profiled for Sending is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sending-dev/](https://apis.io/providers/sending-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (22)
+
+- [Sending Attachments API](https://apis.io/apis/sending-dev/sending-dev-attachments-api/) — The Attachments API from Sending — 3 operation(s) for attachments.
+- [Sending Automations API](https://apis.io/apis/sending-dev/sending-dev-automations-api/) — Automations (journey DAG).
+- [Sending Campaigns API](https://apis.io/apis/sending-dev/sending-dev-campaigns-api/) — Broadcast campaigns to lists and segments.
+- [Sending Commerce API](https://apis.io/apis/sending-dev/sending-dev-commerce-api/) — The Commerce API from Sending — 4 operation(s) for commerce.
+- [Sending Contacts API](https://apis.io/apis/sending-dev/sending-dev-contacts-api/) — Contacts and per-channel identities.
+- [Sending Custom Fields API](https://apis.io/apis/sending-dev/sending-dev-custom-fields-api/) — Custom contact fields.
+- [Sending Domains API](https://apis.io/apis/sending-dev/sending-dev-domains-api/) — Sending domain onboarding and verification.
+- [Sending Email Rules API](https://apis.io/apis/sending-dev/sending-dev-email-rules-api/) — Allow/block rules for inbound mail.
+- [Sending Emails API](https://apis.io/apis/sending-dev/sending-dev-emails-api/) — Transactional email sending.
+- [Sending Events API](https://apis.io/apis/sending-dev/sending-dev-events-api/) — Behavioral event ingestion.
+- [Sending Images API](https://apis.io/apis/sending-dev/sending-dev-images-api/) — The Images API from Sending — 1 operation(s) for images.
+- [Sending Imports API](https://apis.io/apis/sending-dev/sending-dev-imports-api/) — Data import and migration (ActiveCampaign).
+- [Sending Inboxes API](https://apis.io/apis/sending-dev/sending-dev-inboxes-api/) — Email inboxes for AI agents.
+- [Sending Integrations API](https://apis.io/apis/sending-dev/sending-dev-integrations-api/) — External connectors (PostHog, ...).
+- [Sending Lists API](https://apis.io/apis/sending-dev/sending-dev-lists-api/) — Static contact lists.
+- [Sending Messages API](https://apis.io/apis/sending-dev/sending-dev-messages-api/) — Multi-channel transactional sending (email, WhatsApp, Telegram).
+- [Sending Segments API](https://apis.io/apis/sending-dev/sending-dev-segments-api/) — Dynamic segments (rule tree).
+- [Sending Tags API](https://apis.io/apis/sending-dev/sending-dev-tags-api/) — Contact tags.
+- [Sending Templates API](https://apis.io/apis/sending-dev/sending-dev-templates-api/) — The Templates API from Sending — 2 operation(s) for templates.
+- [Sending Usage API](https://apis.io/apis/sending-dev/sending-dev-usage-api/) — Usage snapshot against the plan.
+- [Sending UTM API](https://apis.io/apis/sending-dev/sending-dev-utm-api/) — UTM touches, conversions and attribution.
+- [Sending Webhooks API](https://apis.io/apis/sending-dev/sending-dev-webhooks-api/) — Signed webhooks for email events.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Sending Dev Webhooks](https://apis.io/asyncapis/sending-dev/sending-dev-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sending Agentic Access](https://apis.io/agentic-access/sending-dev/sending-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AutomationStats](https://apis.io/schemas/sending-dev/sending-dev-automation-stats/)
+- [CreateSegment](https://apis.io/schemas/sending-dev/sending-dev-create-segment/)
+- [Journey](https://apis.io/schemas/sending-dev/sending-dev-journey/)
+- [PatchSegment](https://apis.io/schemas/sending-dev/sending-dev-patch-segment/)
+- [SegmentPreviewBody](https://apis.io/schemas/sending-dev/sending-dev-segment-preview-body/)
+- [SendMessageInput](https://apis.io/schemas/sending-dev/sending-dev-send-message-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sending Dev Context](https://apis.io/jsonld/sending-dev/sending-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sending API Rules](https://apis.io/rules/sending-dev/sending-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sending Authentication](https://apis.io/security/sending-dev/sending-dev-authentication/)
+- [Sending Domain Security](https://apis.io/security/sending-dev/sending-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sending Plans Pricing](https://apis.io/plans/sending-dev/sending-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sending Rate Limits](https://apis.io/rate-limits/sending-dev/sending-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sending.dev/)
+- [Documentation](https://sending.dev/docs)
+- [Getting started](https://sending.dev/docs/quickstart)
+- [API reference](https://sending.dev/api-reference)
+- [Pricing](https://sending.dev/pricing)
+- [Privacy policy](https://sending.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 69.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.3 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 50.6 |
+
+**Agent readiness 61.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sending-dev/](https://apis.io/providers/sending-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sending: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sending-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
